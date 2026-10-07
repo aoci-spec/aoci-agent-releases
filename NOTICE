@@ -1,0 +1,35 @@
+AOCI-AGENT Notice
+
+Product: AOCI-AGENT
+Canonical repository: https://github.com/aoci-spec/aoci-agent
+License: Functional Source License, Version 1.1, MIT Future License
+License identifier: FSL-1.1-MIT
+
+Copyright holder: Liu JinShi
+Copyright year: 2026
+
+The first public availability date of each released version is appended here
+at release time and is never rewritten, because the future MIT license of every
+version is derived from its own availability date. Release archives are
+published at https://github.com/aoci-spec/aoci-agent-releases.
+
+Public availability dates:
+- v0.1.36: 2026-10-07
+
+The source is made available as Fair Source/source-available software. The
+LICENSE file contains the controlling code license. The future MIT license for
+each version becomes effective according to the version-specific availability
+rule in that license.
+
+The PATENTS and TRADEMARKS files provide non-conflicting boundary notices only.
+Third-party components remain governed by their own license terms as recorded
+in THIRD-PARTY-NOTICES.
+
+AOCI-AGENT release archives bundle the AOCI-CODE `aoci` binary as its cognition
+engine. AOCI-CODE is published at https://github.com/aoci-spec/aoci-code under
+the same license and copyright holder; the exact bundled version and its
+upstream checksum are recorded in THIRD-PARTY-NOTICES and in the release
+manifest.
+
+A distributable release must not contain unresolved legal metadata
+placeholders.

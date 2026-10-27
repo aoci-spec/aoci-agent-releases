@@ -16,11 +16,11 @@ Each [release](https://github.com/aoci-spec/aoci-agent-releases/releases) holds:
 ## Install
 
 ```sh
-curl -fLO https://github.com/aoci-spec/aoci-agent-releases/releases/download/v0.6.0/aoci-agent-v0.6.0-linux-amd64.tar.gz
-curl -fLO https://github.com/aoci-spec/aoci-agent-releases/releases/download/v0.6.0/aoci-agent-v0.6.0-linux-amd64.tar.gz.sha256
-sha256sum -c aoci-agent-v0.6.0-linux-amd64.tar.gz.sha256
-tar -xzf aoci-agent-v0.6.0-linux-amd64.tar.gz
-cd aoci-agent-v0.6.0-linux-amd64 && ./install.sh --prefix "$HOME/.local"
+curl -fLO https://github.com/aoci-spec/aoci-agent-releases/releases/download/v0.6.1/aoci-agent-v0.6.1-linux-amd64.tar.gz
+curl -fLO https://github.com/aoci-spec/aoci-agent-releases/releases/download/v0.6.1/aoci-agent-v0.6.1-linux-amd64.tar.gz.sha256
+sha256sum -c aoci-agent-v0.6.1-linux-amd64.tar.gz.sha256
+tar -xzf aoci-agent-v0.6.1-linux-amd64.tar.gz
+cd aoci-agent-v0.6.1-linux-amd64 && ./install.sh --prefix "$HOME/.local"
 aoci-agent version --json
 ```
 

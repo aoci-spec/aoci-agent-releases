@@ -13,6 +13,15 @@ Each [release](https://github.com/aoci-spec/aoci-agent-releases/releases) holds:
 | `aoci-agent-<version>-windows-amd64.zip` | The Windows amd64 archive, with `install.ps1` |
 | `*.sha256`, `SHA256SUMS` | The SHA-256 of each archive |
 
+## Which file to download
+
+| You want | Download |
+| --- | --- |
+| aoci-agent on Linux, or inside WSL on Windows, the supported way there | `aoci-agent-<version>-linux-amd64.tar.gz`, installed as below |
+| aoci-agent on Windows without WSL (preview) | `aoci-agent-<version>-windows-amd64.zip`: unpack it and run `install.ps1` in PowerShell |
+
+The desktop window's installer is not part of these releases yet.
+
 ## Install
 
 ```sh
